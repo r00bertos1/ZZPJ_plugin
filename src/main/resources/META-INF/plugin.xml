@@ -11,6 +11,15 @@
         <applicationService serviceImplementation="com.github.r00bertos1.zzpjplugin.services.MyApplicationService"/>
         <projectService serviceImplementation="com.github.r00bertos1.zzpjplugin.services.MyProjectService"/>
     </extensions>
+    <actions>
+        <action id="EditorBasics.EditorIllustrationAction"
+                class="com.github.r00bertos1.zzpjplugin.listeners.EditorIllustrationAction"
+                text="Editor Replace Text"
+                description="Replaces selected text with 'Replacement'."
+                icon="SdkIcons.Sdk_default_icon">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
+    </actions>
 
     <applicationListeners>
         <listener class="com.github.r00bertos1.zzpjplugin.listeners.MyProjectManagerListener"
