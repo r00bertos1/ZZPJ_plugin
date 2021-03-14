@@ -2,11 +2,8 @@ package com.github.r00bertos1.zzpjplugin.services;
 import java.awt.*;
 import java.io.IOException;
 import java.net.URI;
-import java.util.Scanner;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 
 public class QuerySearch {
 
@@ -14,7 +11,7 @@ public class QuerySearch {
 
     public static String createSearchQuery(String queryString) throws IOException {
 
-        String searchURL = GOOGLE_SEARCH_URL + "?q=" + queryString;
+        String searchURL = GOOGLE_SEARCH_URL + "?q=" + URLEncoder.encode(queryString, String.valueOf(StandardCharsets.UTF_8));
         return searchURL;
     }
     public static void search(String searchURL) throws IOException {

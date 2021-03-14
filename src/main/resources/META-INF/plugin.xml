@@ -3,26 +3,17 @@
     <name>ZZPJ_plugin</name>
     <vendor>r00bertos1</vendor>
 
-    <!-- Product and plugin compatibility requirements -->
-    <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+
     <depends>com.intellij.modules.platform</depends>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.r00bertos1.zzpjplugin.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.r00bertos1.zzpjplugin.services.MyProjectService"/>
-    </extensions>
     <actions>
         <action id="EditorBasics.EditorIllustrationAction"
                 class="com.github.r00bertos1.zzpjplugin.listeners.EditorIllustrationAction"
-                text="Editor Replace Text"
-                description="Replaces selected text with 'Replacement'."
-                icon="SdkIcons.Sdk_default_icon">
+                text="Search in Google"
+                description="Search selected text in Google"
+                icon="/icons/google_icon.svg">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
         </action>
     </actions>
 
-    <applicationListeners>
-        <listener class="com.github.r00bertos1.zzpjplugin.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>
