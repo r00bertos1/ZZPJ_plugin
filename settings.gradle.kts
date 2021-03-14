@@ -1,1 +1,1 @@
-rootProject.name = "ZZPJ_plugin"
+rootProject.name = "Google Search"

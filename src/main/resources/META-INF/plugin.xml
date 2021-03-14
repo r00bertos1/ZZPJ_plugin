@@ -1,7 +1,8 @@
 <idea-plugin>
     <id>com.github.r00bertos1.zzpjplugin</id>
-    <name>ZZPJ_plugin</name>
+    <name>Google Search</name>
     <vendor>r00bertos1</vendor>
+    <vendor>pawrob</vendor>
 
 
     <depends>com.intellij.modules.platform</depends>

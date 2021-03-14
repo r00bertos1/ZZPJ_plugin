@@ -1,17 +1,8 @@
 # Google search plugin for Intelij
 
 ![Build](https://github.com/r00bertos1/ZZPJ_plugin/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-
-## Template ToDo list
-- [x] Create a new [IntelliJ Platform Plugin Template][template] project.
-- [x] Verify the [pluginGroup](/gradle.properties), [plugin ID](/src/main/resources/META-INF/plugin.xml) and [sources package](/src/main/kotlin).
-- [x] Review the [Legal Agreements](https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html).
-- [x] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate) for the first time.
-- [ ] Set the Plugin ID in the above README badges.
-- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html).
-- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
+[![Version](https://img.shields.io/jetbrains/plugin/v/16311-google-search.svg)](https://plugins.jetbrains.com/plugin/16311-google-search)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/16311-google-search.svg)](https://plugins.jetbrains.com/plugin/16311-google-search)
 
 <!-- Plugin description -->
 This plugin searches text selected in editor and shows anwsers in Google.
