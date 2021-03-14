@@ -1,4 +1,4 @@
-package com.github.r00bertos1.zzpjplugin.listeners;
+package com.github.r00bertos1.zzpjplugin.actions;
 
 import com.github.r00bertos1.zzpjplugin.services.QuerySearch;
 import com.intellij.openapi.actionSystem.AnAction;
@@ -6,14 +6,13 @@ import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.actionSystem.CommonDataKeys;
 import com.intellij.openapi.command.WriteCommandAction;
 import com.intellij.openapi.editor.Caret;
-import com.intellij.openapi.editor.Document;
 import com.intellij.openapi.editor.Editor;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.util.text.StringUtil;
 import org.jetbrains.annotations.NotNull;
 import java.io.IOException;
 
-public class EditorIllustrationAction extends AnAction {
+public class SearchGoogleAction extends AnAction {
     @Override
     public void update(@NotNull final AnActionEvent e) {
         final Project project = e.getProject();

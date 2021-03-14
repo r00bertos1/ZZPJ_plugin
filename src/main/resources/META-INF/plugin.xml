@@ -9,7 +9,7 @@
 
     <actions>
         <action id="EditorBasics.EditorIllustrationAction"
-                class="com.github.r00bertos1.zzpjplugin.listeners.EditorIllustrationAction"
+                class="com.github.r00bertos1.zzpjplugin.actions.SearchGoogleAction"
                 text="Search in Google"
                 description="Search selected text in Google"
                 icon="/icons/google_icon.svg">

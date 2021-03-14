@@ -19,3 +19,6 @@ This plugin searches text selected in editor and shows anwsers in Google.
 
   Download the [latest release](https://github.com/r00bertos1/ZZPJ_plugin/releases/latest) and install it manually using
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
+  
+## Demo
+<img src="demo.png"  width="200px"/>
