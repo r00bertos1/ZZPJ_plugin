@@ -21,4 +21,4 @@ This plugin searches text selected in editor and shows anwsers in Google.
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
   
 ## Demo
-<img src="demo.png" width="800px"  alt="plugin demo"/>
+<img src="demo.png" width="800px" />
